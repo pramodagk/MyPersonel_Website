@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="pro\style.css">
+    <script src="https://kit.fontawesome.com/3494bd8095.js" crossorigin="anonymous"></script>
+    
+   
+</head>
+<body>
+    <div id="header" >
+        <div class="container-fluid">
+            <nav class="navbar pk navbar-expand-lg navbar-light bg-light">
+    <div  class="container-fluid">
+      <a class="navbar-brand" >Pramod</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div  class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item ">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Gallery">gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skill">skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">SocialMedia</a>
+          </li>
+         
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          
+        </ul>
+        </div>
+    </div>
+  </nav>
+            <div class="header-text" id="home">
+                <h1 style="color:rgb(12, 12, 12)">
+                    <p id="myMareque" direction="left"  loop="infinite" repeat >
+                        Hi, I'm <span>Pramod GK</span><br> From </br>Davangere
+                    </p>
+                </h1>   
+            </div>
+            
+
+            
+      </div>
+     </div>
+     <div id="about">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="about-col-4 col-lg-12">
+              <h1 class="sub-title">About</h1>
+              <div class="row">
+                <div class="col-lg-4">
+                  <img src="pro/i1.jpg" class="img-fluid rounded-circle" style="max-width: 100%;" alt="Profile Image">
+                </div>
+                <div class="col-lg-6">
+                  <p class="text-white">
+                    Pramod GK here; I'm from Bande Bommenahalli, 
+                    which is close to Davanagere. I was raised 
+                    in a nuclear family. My interests include music, 
+                    hanging out with friends, making videos related to programming 
+                    languages, and watching English and Kannada films. 
+                    I'm currently pursuing a BCA at Interface College of Computer Application 
+                    in Davangere.</br>
+                  </br>
+                    I'm drawn to the technical sector because I want to apply 
+                    my knowledge and expertise to make other people's jobs simpler
+                     and more effective. IT support specialists, in my opinion, are crucial
+                      team members for any 
+                    firm since they mix technical expertise with interpersonal abilities.
+                  </p>
+                </div>
+            </div>
+            <a href="pro/CV.pdf" download class="btn btn2">Dowload cv</a>
+        </div>
+              </div>
+              <button class="scroll-to-top">
+                <i class="fa-solid fa-arrow-up"></i>
+              </button>
+              <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+              <script>
+                $(document).ready(function() {
+                  $(window).scroll(function() {
+                    if ($(this).scrollTop() > 0) {
+                      $('.scroll-to-top').fadeIn();
+                    } else {
+                      $('.scroll-to-top').fadeOut();
+                    }
+                  });
+      
+                  $('.scroll-to-top').click(function() {
+                    $('html, body').animate({scrollTop : 0}, 800);
+                    return false;
+                  });
+                });
+              </script>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    
+
+    
+</br>
+</br>
+       <section id="Gallery">
+        <div class="container"><h3 class="text-center">Gallery</h3>
+            <div class="row">
+                <div class="col">
+                    <img src="pro/pho1.jpg" width="250" height="300">
+                    <img src="pro/pho3.jpg" width="250" height="300">
+                    <img src="pro/pho4.jpg" width="250" height="300">
+                    <img src="pro/Pic1.jpg" width="250" height="300">
+                </div>
+            </div>
+        </div> 
+       </section>
+
+
+       <div class="inner" id="skill">
+          <div class="hear">
+            <h1>My Skills</h1>
+           </div>
+           <div class="container" id="ss">
+                <div class="skill-box">
+                  <div class="skill-title">
+                    <div class="img">
+                      <img  class="skill-icon"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1200px-C_Programming_Language.svg.png" >
+                    </div>
+                    <h3>C-Programming</h3>
+                  </div>
+                  <p> C is a computer language that excels at creating 
+                    effective algorithms and resolving challenging issues. knowledge of data structures, 
+                    application development, and performance code optimisation.</p>
+                </div>
+
+                <div class="skill-box">
+                  <div class="skill-title">
+                    <div class="img">
+                      <img class="skill-icon" src="https://static.vecteezy.com/system/resources/previews/022/100/686/original/java-logo-transparent-free-png.png" >
+                    </div>
+                    <h3>CoreJava</h3>
+                  </div>
+                  <p>Strong knowledge of core Java concepts, including object-oriented programming,
+                 exception handling, and multithreading. Skilled in developing Java applications,
+       designing user interfaces, and utilising libraries and frameworks to build
+                 robust.</p>
+                </div>
+
+                <div class="skill-box">
+                  <div class="skill-title">
+                    <div class="img">
+                      <img class="skill-icon" src="https://w7.pngwing.com/pngs/580/809/png-transparent-data-structure-logo-brand-data-structure-blue-text-logo.png" >
+                    </div>
+                    <h3>Data Structure</h3>
+                  </div>
+                  <p>A sound understanding of fundamental data structures such as arrays, linked lists,
+                     stacks, queues, and trees. Proficient in implementing algorithms and data
+                     manipulation techniques to efficiently store, retrieve, and manipulate data.
+                   </p>
+                </div>
+
+                <div class="skill-box">
+                  <div class="skill-title">
+                    <div class="img">
+                      <img class="skill-icon" src="https://static.cdnlogo.com/logos/c/68/c-sharp-350x350.png" >
+                    </div>
+                    <h3>C#</h3>
+                  </div>
+                  <p>In C#, a powerful and versatile programming language used for
+                    developing a wide range of applications. Experienced in writing clean and
+                    maintainable code, implementing object-oriented principles, and utilising .NET
+                    frameworks and libraries.</p>
+                </div>
+
+                <div class="skill-box">
+                  <div class="skill-title">
+                    <div class="img">
+                      <img class="skill-icon" src="https://play-lh.googleusercontent.com/erU9Hj8_nNsWnyJgFks0p0jdpu769mbv10SjH45JnZshNV_eEITl3RBeqPgCfKtD0Ghd" >
+                    </div>
+                    <h3>DBMS</h3>
+                  </div>
+                  <p>Dbms, including designing and implementing efficient databases
+                     schemas, writing SQL queries, and ensuring data integrity. Skilled in working with popular
+                     database systems like MySQL, PostgreSQL, or Microsoft SQL Server.</p>
+                </div>
+
+                <div class="skill-box">
+                  <div class="skill-title">
+                    <div class="img">
+                      <img class="skill-icon" src="pro/imgHTML.jpg" >
+                    </div>
+                    <h3>HTML-5</h3>
+                  </div>
+                  <p>Proficient in HTML, with expertise in creating well-structured and semantically
+                    meaningful
+                    web pages. Skilled in using HTML tags, attributes, and elements to build the
+                    structure and
+                    content of websites.</p>
+                </div>
+
+                <div class="skill-box">
+                  <div class="skill-title">
+                    <div class="img">
+                      <img class="skill-icon" src="https://img.freepik.com/free-icon/file-formats_318-337962.jpg" >
+                    </div>
+                    <h3>CSS</h3>
+                  </div>
+                  <p>Strong knowledge of CSS (Cascading Style Sheets), including styling, layout, and
+                    responsive
+                    design. Experienced in applying CSS properties, selectors, and media queries to
+                    create
+                    visually appealing and responsive web interfaces.</p>
+                </div>
+
+
+                <div class="skill-box">
+                  <div class="skill-title">
+                    <div class="img">
+                      <img class="skill-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1SVPRF6GVT4RclZKqtqo0rggJCMF_u74UZe1L1xWUQT0_x1JNHBi4rSUl3Kbzt_jcdETb_gcYBTg&usqp=CAU&ec=48600113" >
+                    </div>
+                    <h3>JavaScript</h3>
+                  </div>
+                  <p>Proficient in JavaScript, with expertise in client-side scripting and DOM manipulation.
+                    skilled in developing interactive and dynamic web functionalities, handling events, and
+                     utilising libraries and frameworks like jQuery and React.</p>
+                </div>
+
+                <div class="skill-box mt-5">
+                  <div class="skill-title">
+                    <div class="img">
+                      <img class="skill-icon " src="data:image/jpeg;base64,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" >
+                    </div>
+                    <h3>Bootstrap-5</h3>
+                  </div>
+                  <p>Bootstrap is a popular and powerful framework for building responsive and mobile-first websites. The main goal of Bootstrap is to simplify web development by providing a collection of pre-designed HTML, CSS, and JavaScript components that can be easily implemented and customised.</p>
+                </div>
+
+
+           </div>
+
+       </div> 
+
+    <div id="services">
+
+         <div class="container" >
+        <div class="row">
+            <h1 class="sub-title">social media</h1>
+            <div class="services-list  ">
+                
+               <div class="dd">
+                <i class="fa-brands fa-facebook"></i>
+                <h2>Facebook</h2>
+                
+                <a href="https://www.facebook.com/profile.php?id=100070745846438">click for visiting</a>
+               </div> 
+               
+               <div class="dd">
+                <i class="fa-brands fa-instagram"></i>
+                <h2>instagram</h2>
+                <a href="https://www.instagram.com/pramod_gk6/">click for visiting</a>
+               </div> 
+              
+               <div class="dd">
+                <i class="fa-brands fa-square-youtube"></i>
+                <h2>YouTube</h2>
+                <a href="https://www.youtube.com/channel/UCsNb-b72mNJT7cF4uER2HAw">click for visiting</a>
+               </div>
+               
+               <div class="dd">
+                <i class="fa-brands fa-linkedin"></i>
+                <h2>LinkedIn</h2>
+                <a href="https://www.linkedin.com/in/pramod-gk-8a5233266/">click for visiting</a>
+               </div>
+
+               <div class="dd">
+                <i class="fa-brands fa-Github"></i>
+                <h2>Github</h2>
+                <a href="https://github.com/pramodagk/pramod_1">click for visiting</a>
+               </div>
+            </div>
+        </div>
+        
+    </div>
+        </div>
+    </div>
+
+    
+    
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+       function opentab(tabname){
+           for(tablink of tablinks ) {
+            tablink.classlist.remove("active-link");
+           }
+           for(tabcontent of tabcontents ) {
+            tabcontent.classlist.remove("active-tab");
+           }
+           event.currentTarget.classlist.add("active-link");
+           document.getElementById(tabname)
+       }
+       </script>
+
+
+<!-- ======= Resume Section ======= -->
+<section id="resume" class="resume bg-black" style="color: white; background-color:black">
+  <div class="container-fluid">
+    <h1 class="text-center text-white pt-3 pb-3" style="color: red; border:2px solid yellow; font-size:50px; background-color:black; word-wrap: break-word;">RESUME</h1>
+    <div class="container" data-aos="fade-up">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>carrier objective</h2>
+          <p id="padd" style="color: white; word-wrap: break-word;">Aspiring to work in a reputed organization which provides the opportunity to improve my technical skills and knowledge along with the growth of the organization and gain new experience with job satisfaction.</p>
+        </div>
+        <div id="padd" class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Summary</h3>
+            <div class="resume-item pb-0">
+              <h4>Pramod GK</h4>
+              <h4> FRESHER</h4>
+              <p><em>I am currently pursuing my bachelor's degree in computer application.</em></p>
+              <ul>
+                <li>Phone: 8722300683</li>
+                <li>Email: <a href="mailto:gkpramod31@gmail.com">gkpramod31@gmail.com</a></li>
+                <li>Address: Davangere, Karnataka</li>
+                <li>Date of Birth: 27-09-2003</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>BACHELOR OF COMPUTER APPLICATION</h4>
+              <p><em>INTERFACE COLLEGE OF COMPUTER APPLICATION</em></p>
+
+              <h4>PRE-UNIVERSITY COURSE</h4>
+              <p><em>JNANASAGARA PU COLLEGE</em></p>
+
+              <h4>HIGH SCHOOL</h4>
+              <p><em>MORARJI DESAI RESIDENTIAL SCHOOL</em></p>
+            </div>
+          </div>
+        </div>
+        <div id="padd" class="row">
+          <div class="col-lg-4">
+            <h3 class="resume-title">UI Layer</h3>
+            <div class="resume-item">
+              <ul>
+                <h4>Frontend technologies</h4>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <h3 class="resume-title">Logical layer</h3>
+            <div class="resume-item">
+              <ul>
+                <h4>Programming Languages</h4>
+                <li>C</li>
+                <li>C#</li>
+                <li>Java</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <h3 class="resume-title">Database</h3>
+            <div class="resume-item">
+              <ul>
+                <h4>Database technologies</h4>
+                <li>SQL</li>
+                <li>MS-SQL</li>
+                <li>NoSQL</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">ACADEMIC PROJECTS</h3>
+            <div class="resume-item">
+              <h4>HACKATHON</h4>
+              <p>Our college organised a Hackathon for us during the 
+                first semester of the academic year. We formed a team of five individuals
+                 for the Hackathon, using C as our programming language, 
+                and utilised concept header files to develop a project.</p>
+
+              <h4>WEBSITE CREATION</h4>
+              <p>Using front-end technology, I developed my personal 
+                website during the second semester of my undergraduate term.
+                 I used Bootstrap to create 
+                a responsive website for the project</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+        <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid mailto:fa-paper-plane"></i>pramodgk31@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 8722300683</p>
+                </br>
+              
+               
+            </div>
+                <div class="contact-right"></div>
+                <form id="myForm">
+                    <input type="text" name="name" placeholder="Your name" required><br>
+                    <input type="email" name="email" placeholder="Your email" required><br>
+                    <textarea name="message" rows="6" placeholder="Your message"></textarea><br>
+                    <button type="submit" class="btn btn2">Submit</button>
+                    <button type="button" class="btn btn2" onclick="clearForm()">clear</button>                   
+                    
+                  </form>
+                  
+                  <script>
+                    document.getElementById("myForm").addEventListener("submit", function(event) {
+                      event.preventDefault();
+                  
+                      var name = document.getElementsByName("name")[0].value;
+                      var email = document.getElementsByName("email")[0].value;
+                      var message = document.getElementsByName("message")[0].value;
+                  
+                     
+                      if (name === "") {
+                        alert("Please enter your name");
+                        return;
+                      }
+                  
+                      
+                      if (email === "") {
+                        alert("Please enter your email");
+                        return;
+                      }
+                      
+                      var emailRegex = /^\S+@\S+\.\S+$/;
+                      if (!email.match(emailRegex)) {
+                        alert("Please enter a valid email address");
+                        return;
+                      }
+                  
+                      
+                      showConfirmation();
+                    });
+                  
+                    function showConfirmation() {
+                      alert("Thank you for contacting");
+                    }
+                    function clearform()
+                    {
+                        document.getElementsByid(myForm).reset();
+                    }
+
+                    function clearForm() {
+                          document.getElementById("myForm").reset();
+                        }
+                  </script>
+                  </br>
+
+            
+    </body>
+</html>
+    
